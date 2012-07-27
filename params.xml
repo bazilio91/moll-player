@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PLAYLIST BG="0x000000">
-<VIDEO KEYCODE="65" URL="assets/video/video1.flv"/>
-<VIDEO KEYCODE="83" URL="assets/video/video2.flv"/>
-<VIDEO KEYCODE="68" URL="assets/video/video3.flv"/>
+<?xml version="1.0" encoding="utf-8"?> 
+<PLAYLIST BG="0x00000">
+<VIDEO URL="assets/video/video1.mp4"/>
+
+<VIDEO URL="assets/video/video2.mp4"/>
 </PLAYLIST>

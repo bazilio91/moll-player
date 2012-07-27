@@ -1,0 +1,123 @@
+
+/* COMMON */
+
+
+body {
+	font: 62.5%/1.6em Verdana, Sans-Serif;
+	color: #66655b;
+	background:#fff;
+	margin:0; padding:0;
+	line-height:1.7em;
+	margin:0 auto;
+	text-align:center;
+}
+
+					
+
+a {outline:none;}
+			
+	/* ANIMATION SLIDER */		
+
+	.headline {		
+		float:left;
+		position:relative;
+		overflow:hidden;
+	  	height: 260px;
+	   	width:182px;
+	}
+	.slider{
+		display:block;
+		position:relative;
+		clear:both;
+		margin:0 auto;
+		width:182px;
+	}		
+		
+		.slider .items {
+			position:absolute;
+		   	width:auto;
+			display:block;
+			height: 266px;
+		}
+			.slider .items a {
+				color:#fff; 
+				position:relative;
+				text-decoration:none; 
+				line-height:11px;
+				float:left; 
+				width:100%;
+				padding:0 0;
+				text-align:center;
+			}
+			.slider .items a:hover {text-decoration:underline;}
+				.slider .items a.lnk {border:none; float:left;}
+				
+			.slider .containerItems {
+				position:relative;
+			  	height: 266px;
+				top:0px;
+			}
+				.slider .items .desc {
+							
+					position:absolute;
+					bottom:0; left:0;
+					width:156px; height:43px;
+					background:#000;
+					color:#fff;
+					opacity:0.8;
+					filter: alpha(opacity = 80);
+					padding:7px 10px 0px 16px;
+					display: table-cell;
+					vertical-align:middle;
+				}
+			.slider .containerItems img {
+				float:left;
+				padding:0;
+				border:none;
+			}
+			.slider .wrapanim {
+				float:left;
+				clear:both;
+				position:relative;
+				height:260px;
+				width:182px;
+			}
+
+		.slider .moveLeft, .moveRight {
+			position:absolute;
+			width:11px;
+			height:17px;
+			top:230px; left:3px;
+			z-index:900;
+			text-indent:-9999px;
+		}
+		.slider .moveLeft {
+			background:url(../img/arrow_left.gif) top left no-repeat;
+		}
+		.slider .moveRight {
+			background:url(../img/arrow_right.gif) top left no-repeat;
+		}
+		.slider .moveLeft:hover, .moveRight:hover {background-position:bottom left;}
+		.slider .moveRight {
+			left:167px;
+		}	
+	
+		
+	/* clearfix  */
+		
+		.clearfix:after {
+		  content: "."; 
+		  display: block;
+		  height: 0; 
+		  clear: both; 
+		  visibility: hidden;
+		}
+		
+		.clearfix {display: inline-table;}
+		
+		/* Hides from IE-mac \*/
+		* html .clearfix {height: 1%;}
+		.clearfix {display: block;}
+		/* End hide from IE-mac */
+			
+
